@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height">
+	<title>Test</title>
+	<link rel="shortcut icon" href="/images/icon.png">
+	<!-- Latest bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+	
+<body>
+
+<div id="app"></div>
+<script src="/js/vendor.bundle.js"></script>
+<script src="/js/app.js"></script>
+<script type="text/javascript">
+	window.onresize = window.onload = function() {
+    	// var width = this.innerWidth;
+    	var height = this.innerHeight;
+	    document.getElementById('mainView').style.height = height+'px';
+	}
+	var myform = {
+                  user_data: {
+                    email: '',
+                    password: '',
+                    date_of_birth: '',
+                    gender: '',
+                    how_hear_about_us: ''
+                  }
+                };
+</script>
+</body>
+<link rel="stylesheet" type="text/css" href="styles/custom.css" />
+</html>
